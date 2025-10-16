@@ -165,7 +165,7 @@ However, the topology in this Repository are the same. You can use the block nam
 Capsim&reg; command  "to blockname" to go the the block, change parameters and run the simulation.
 There is a lot of benefit to the non graphical mode in portability and flexibility.
 The graphical version also supports the text mode operation.
-<p style="margin-left:1em;">An updated link to  Capsim&reg; Version 7 using Qt&reg; will be provided in the Capsim&reg; Repostory on GitHub. Stay tuned.
+<p style="margin-left:1em;">An updated link to  Capsim&reg; Version 7 using Qt&reg; will be provided in the Capsim&reg; Repository on GitHub. Stay tuned.
 
 <BR>
 
@@ -386,6 +386,7 @@ plot created file: plot2.tim
 <p style="margin-left:1em;"><b>java -jar $CAPSIM/TOOLS/IIPPlot.jar  eyeDiagram.tim</b>
 <p style="margin-left:1em;"> With Linux you can send the plot application to run in the background to put plots side by side when you want to display multiple plots. Then bring them to the forgound and use Control C to exit.
 <p style="margin-left:1em;"> For the eye diagram refer to the screen shot below.
+<BR>
 <img src="images/eye_diagram.png" width="808" height="456" alt="eye" title="" />
 <p style="margin-left:1em;"> To run the TCL scripts, for example <strong>bersnr.tcl</strong>, use this command:
 <p style="margin-left:1em;"> <b>../capsim -t bersnr.tcl</b>
