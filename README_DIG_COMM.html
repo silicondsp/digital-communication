@@ -52,9 +52,8 @@
 <BR>
 <a href="#linux_tux"><img src="images/Tux.svg.png" width="62" height="74" alt="Linux Tux" title="" /></a>  -->
 <!-- width="250" height="297" -->
-<BR>
-<BR>
-Icons <img src="images/noun-links-821764.png" width="30" height="30" alt="link github" title="" />,
+
+<p style="margin-left:1em;">Icons <img src="images/noun-links-821764.png" width="30" height="30" alt="link github" title="" />,
 <img src="images/noun-tools-4827171.png" width="40" height="40" alt="link building" title="" /> and 
 <img src="images/noun-github-4289652.png" width="50" height="50" alt="link github" title="" /> 
 Credit the <a href="https://thenounproject.com/"> Noun Project</a>.
@@ -403,13 +402,13 @@ This block prints a final message to stderr giving the error rate
 <h1>    Instructions for Running Capsim&reg; Digital Communication Link Block Diagram Simulation.</h1>
   <p style="margin-left:1em;"><strong>1-</strong> Obtain the Capsim&reg; Text Mode Kernel (CapsimTMK) for Linux  from:
 <p style="margin-left:1em;"><a href="https://github.com/silicondsp/capsim-tmk">GitHub Capsim Text Mode  Repository </a>
-<p style="margin-left:1em;">CapsimTMK is  distributed with hundreds of  blocks. To simulate OFDM systems the blocks in this repository have to be incorporated into Capsim&reg; including subroutines.
-<p style="margin-left:1em;"> This Repository contains the Topologies for QPSK Digital Link  block diagram modeling. All blocks used are part of the Capsim&reg; TMK Repository.
+<p style="margin-left:1em;">CapsimTMK is  distributed with hundreds of  blocks. 
+<p style="margin-left:1em;"> This Repository contains the Topologies for QPSK Digital Communication Link  block diagram modeling. All blocks used are part of the Capsim&reg; TMK Repository.
 
 <p style="margin-left:1em;">Note: Follow the <b>Getting Started Guidelines</b> in the CapsimTMK Repository.
 <p style="margin-left:1em;"><strong>2- </strong>Once CapsimTMK is installed just run 'make' in this repository's  main directory.
 <p style="margin-left:1em;"><strong>3- </strong>Then change to the directory 'Topologies' and run:
-<p style="margin-left:1em;"><strong></strong>../capsim sys-qpsk.t</strong>
+<p style="margin-left:1em;"><strong>../capsim sys-qpsk.t</strong>
 <p style="margin-left:1em;">The block diagram for the <strong>sys-qpsk.t</strong> topology is shown <a href="#dig_comm_e2e_qpsk">here</a>.
  <p style="margin-left:1em;">The following is the console report:
 <pre>
@@ -436,10 +435,11 @@ plot created file: plot2.tim
 
 
 <p style="margin-left:1em;"> With Linux you can send the plot application to run in the background to put plots side by side when you want to display multiple plots. Then bring them to the forgound and use Control C to exit.
-<p style="margin-left:1em;"> For the eye diagram refer to the screen shot below.
+<p style="margin-left:1em;"> For the eye diagram refer to the screen shot below. 
+<BR><BR>
 <img src="images/eye_diagram.png" width="808" height="456" alt="eye" title="" />
 
-
+<BR>
 
 <p style="margin-left:1em;"> To run the TCL scripts, for example <strong>bersnr.tcl</strong>, use this command:
 <p style="margin-left:1em;"> <b>../capsim -t bersnr.tcl</b>
@@ -503,8 +503,11 @@ SNR	BER
 5	0.000140140138683
 7	3.20003209708e-06
 </pre>  
-<p style="margin-left:1em;"> The file <strong>ber.dat</strong> is created. To plot the results use the command:
-<p style="margin-left:1em;"> <b>java -jar $CAPSIM/TOOLS/IIPPlot.jar  ber.dat</b>
+<p style="margin-left:1em;"> The file <strong>ber.dat</strong> is created. 
+To plot the results use the command:
+<p style="margin-left:1em;"> <b>java -jar $CAPSIM/TOOLS/IIPPlot.jar  ber.dat </b>
+
+<BR>
 <BR>
 <img src="images/qpsk_ber_snr_log.png" width="476" height="693" alt="ber versus snr" title="" />
 <p style="margin-left:1em;"> In the plot the Y axis was changed to Logarithmic. Also the Marker+Line stye was selected. Also the theme was changed.
