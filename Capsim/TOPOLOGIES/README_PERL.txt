@@ -14,10 +14,4 @@ To create the "temp.t" topology which is run in capsim in batch mode:
 After each run, ecount.dat is apended with the new BER info.
 
 
-To run the end to end QPSK digital link use:
-
-    ./capsim -b
-
-then load sys-ete.t as the topology.
-
 
