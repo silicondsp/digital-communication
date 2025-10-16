@@ -1,2 +1,466 @@
 # digital-communication
-Block Diagram Modeling and Simulation of Digital Communication Links in Capsim
+<h1>Block Diagram Modeling and Simulation of Digital Communication Links in Capsim</h1>
+
+<div style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;">
+<table width="400px" border="1" cellpadding="2" cellspacing="2" style="background-color: #ffffff;">
+<tr valign="top">
+<td style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;"> <a href="https://www.ccdsp.org/"><img src="sd-logo-tm_sm.png" width="104" height="109" alt="sdsp logo" title="" /></a>
+</span></p>
+</td>
+<td style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;"><a href="#linux_tux"><img src="images/Tux.svg.png" width="62" height="74" alt="Linux Tux" title="" /></a> <!-- width="250" height="297" -->Developed on Linux.
+</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-width : 0px;"><br />
+</td>
+<td style="border-width : 0px;"><br />
+</td>
+</tr>
+</table>
+</div>
+<!--
+ <a href="https://www.ccdsp.org/"><img src="sd-logo-tm_sm.png" width="104" height="109" alt="sdsp logo" title="" /></a>
+<BR>
+<a href="#linux_tux"><img src="images/Tux.svg.png" width="62" height="74" alt="Linux Tux" title="" /></a>  -->
+<!-- width="250" height="297" -->
+<BR>
+<BR>
+<p style="margin-left:1em;">Icons <img src="images/noun-links-821764.png" width="30" height="30" alt="link github" title="" />,
+<img src="images/noun-tools-4827171.png" width="40" height="40" alt="link building" title="" /> and 
+<img src="images/noun-github-4289652.png" width="50" height="50" alt="link github" title="" /> 
+Credit the <a href="https://thenounproject.com/"> Noun Project</a>.
+<BR>
+<div style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table width="100%" border="1" cellpadding="2" cellspacing="2" style="background-color: #ffffff;">
+<table>
+<tr valign="top">
+<td width="40" height="15" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: bold; color: #000000; background-color: transparent; text-decoration: none;">Item</span></p>
+</td>
+<td width="293" height="15" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: bold; color: #000000; background-color: transparent; text-decoration: none;">Description</span><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;"> </span></p>
+</td>
+<td width="73" height="15" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: bold; color: #000000; background-color: transparent; text-decoration: none;">Link</span></p>
+</td>
+<td width="134" height="15" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: bold; color: #000000; background-color: transparent; text-decoration: none;">Type</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="40" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">1</span></p>
+</td>
+<td width="293" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">Introduction to the Capsim&reg;Digital Communication Link Block Diagram Modeling and Simulation</span></p>
+</td>
+<td width="73" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;"><a href="#introduction"><img src="images/noun-links-821764.png" width="30" height="30" alt="link" title="" /></a></span></p>
+</td>
+<td width="134" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">Introduction</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="40" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">2</span></p>
+</td>
+<td width="293" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;"> Capsim&reg; Block Diagram End to End  QPSK Digital Communication Link</span></p>
+</td>
+<td width="73" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;"><a href="#dig_comm_e2e_qpsk"><img src="images/noun-links-821764.png" width="30" height="30" alt="link" title="" /></a></span></p>
+</td>
+<td width="134" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">Screen Shots</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="40" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">3</span></p>
+</td>
+<td width="293" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">List of Topologiies Included in Repository</span></p>
+</td>
+<td width="73" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;"><a href="#tops_list"><img src="images/noun-links-821764.png" width="30" height="30" alt="link" title="" /></a></span></p>
+</td>
+<td width="134" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">Table</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="40" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">4</span></p>
+</td>
+<td width="293" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">C Blocks, Part of Digital Communication Links Capsim&reg; Modeling and Simulation</span></p>
+</td>
+<td width="73" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;"><a href="#block_list"><img src="images/noun-links-821764.png" width="30" height="30" alt="link" title="" /></a></span></p>
+</td>
+<td width="134" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">Table</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="40" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">5</span></p>
+</td>
+<td width="293" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">Building Capsim&reg; for Digital Communication Link Modeling and Simulation </span></p>
+</td>
+<td width="73" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;"><a href="#digital_comm_link_instructions"><img src="images/noun-tools-4827171.png" width="40" height="40" alt="link building" title="" /></a></span></p>
+</td>
+<td width="134" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">Instructions</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="40" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">6</span></p>
+</td>
+<td width="293" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">Capsim&reg; Text Mode Kernel (TMK) Installation </span></p>
+</td>
+<td width="73" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;"><a href="https://github.com/silicondsp/capsim-tmk"><img src="images/noun-github-4289652.png" width="50" height="50" alt="link github" title="" /></a></span></p>
+</td>
+<td width="134" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">GitHub Repository</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="40" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">7</span></p>
+</td>
+<td width="293" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">GitHub Repository Capsim&reg; Digital Communication Link</span></p>
+</td>
+<td width="73" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;"><a href="https://github.com/silicondsp/digital-communication"><img src="images/noun-github-4289652.png" width="50" height="50" alt="link github" title="" /></a></span></p>
+</td>
+<td width="134" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">GitHub Repository</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="40" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">8</span></p>
+</td>
+<td width="293" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">Digital Communications Basics  by Silicon DSP Corporation</span></p>
+</td>
+<td width="73" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;"><a href="https://youtu.be/VJL2jMELo1U?list=PLqL72R3p_ZYJSfY66W3F2Hyh5J2lB9TA5"><img src="images/yt_logo_rgb_light-300x67.png" width="75" height="17" alt="youtube" title="" /></a></span></p>
+</td>
+<td width="134" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">Video Tutorial</span></p>
+</td>
+</tr>
+<tr valign="top">
+<td width="40" style="border-width : 0px;"><br />
+</td>
+<td width="293" style="border-width : 0px;"><br />
+</td>
+<td width="73" style="border-width : 0px;"><br />
+</td>
+<td width="134" style="border-width : 0px;"><br />
+</td>
+</tr>
+</table>
+</div>
+<pre>Copyright (c) 2000-2007 Silicon DSP Corporation
+Permission is granted to copy, distribute and/or modify this
+document under the terms of the GNU Free Documentation License,
+Version 1.2 or any later version published by the Free Software
+Foundation; with no Invariant Sections, no Front-Cover Texts, and
+no Back-Cover Texts. A copy of the license is included in the
+section entitled "GNU Free Documentation License". </pre>
+<BR>
+<div id="introduction">
+<h2>Introduction</h2>
+<p style="margin-left:1em;">Block Diagram Topologies are provided for modeling and simulation a QPSK Digital Communication Links.
+All the blocks used in the topologies are included in the Capsim&reg;  Text Mode Kernel (TML) Repository.
+TCL scripts are provided for running multiple simulations at different SNR and tabulating the result showing BER versus SNR in dB.
+The communication link uses Nyquest Pulse Shaping where the rolloff factor can be specified. The <strong>sqrtnyq.s  </strong> block is used at the receiver and transmitter
+with the <strong>sqrtnyq.s</strong> block at the receiver being the matched filter.  
+<p style="margin-left:1em;">For some of the topologies, files are genererated to view the received eye diagram and constellation.
+Use the <strong>IIPPlot.jar</strong> Java program to plot the results. 
+Three  convenient scripts are provided: xeyeplot,  xplot and  xscatter. For example, run the command:
+<p style="margin-left:1em;"><strong>source xscatter Scatter.sct</strong> 
+<p style="margin-left:1em;">to create a plot of the received constellation.
+<p style="margin-left:1em;">Since Capsim&reg; does not have memory leaks, the simulations can be run for huge number of bits.
+The topology <strong>sys-ete-ber.t</strong> runs for 10,000,000 bits and reports the Bit Error Rate (BER).
+<p style="margin-left:1em;">The TCL Script <strong>bersnr.tcl</strong>
+uses the topology: <strong>sys-ete-snr.t</strong> to run multiple simulations with different SNR values and tabulates BER versus SNR (dB).
+<p style="margin-left:1em;">Note this repository supports the Text Mode Kernel version of Capsim&reg;. 
+The graphical block diagram is from the soon to be released Capsim&reg; Version 7 which uses  Qt&reg; for interactive graphical interface. 
+However, the topology in this Repository are the same. You can use the block names in the screen shot and then use the
+Capsim&reg; command  "to blockname" to go the the block, change parameters and run the simulation.
+There is a lot of benefit to the non graphical mode in portability and flexibility.
+The graphical version also supports the text mode operation.
+<p style="margin-left:1em;">An updated link to  Capsim&reg; Version 7 using Qt&reg; will be provided in the Capsim&reg; Repostory on GitHub. Stay tuned.
+
+<BR>
+
+
+
+
+<div id="dig_comm_e2e_qpsk">
+<h2>Capsim&reg; End to End QPSK Digital Communication Block Diagram With Channel SNR Specificaton</h2>
+<img src="images/ete_qpsk_set_snr_args_edit.png" width="1796" height="880" alt="block diagram dig comm" title="" />
+<BR>
+<img src="images/qpsk_constllation_eye_diagram_noise.png" width="747" height="372" alt="eye" title="" />
+<BR>
+<img src="images/ber_snr_tcl_run.png" width="1023" height="440" alt="ber tcl" title="" />
+<BR>
+<img src="images/qpsk_ber_snr_log.png" width="476" height="693" alt="ber snr log" title="" />
+<BR>
+<BR>
+
+<div id="tops_list">
+   <h2>List of Topologies (Block Diagrams and Hierarchical Blocks and TCL Scripts)</h2>
+    <table>
+        <tr><th>Item</th><th>Topology Name</th><th>Description</th><th>Author</th><th>Date</th></tr>
+        <tr>
+            <td>1</td>
+            <td>sys-qpsk.t</td>
+            <td>QPSK  end to end  digital communications link with Nyquist Pulse Shaping. Creates file with data for plotting eye diagram as well as file to plot received constellation.
+</td>
+            <td>Ardalan</td>
+            <td>2002</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>sys-ete-snr.t</td>
+            <td>QPSK  end to end  digital communications link with Nyquist Pulse Shaping. Set SNR for channel in dB. No files created for plotting. Stand alone. Also used by TCL scripts.
+</td>
+            <td>Ardalan</td>
+            <td>2002</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>sys-ete-ber.t</td>
+            <td>QPSK  end to end  digital communications link with Nyquist Pulse Shaping. Set noise with addnoise.s block. No files created for plotting. Simulates 10,000,000 bits, addnoise block parameter 0.15 with resulting BER of 1e-07</td>
+            <td>Ardalan</td>
+            <td>2002</td>
+        </tr> 
+        <tr>
+        <td>12</td>
+            <td>bersnr.tcl</td>
+            <td>TCL Script that uses the topology: <strong>sys-ete-snr.t</strong> to run multiple simulations with different SNR values and tabulates BER versus SNR (dB)</td>
+            <td>Ardalan</td>
+            <td>August 10, 2002</td>
+        </tr> 
+    </table>
+
+<div id="block_list">
+<h2>List of Blocks</h2>
+   <table>
+        <tr><th>Item</th><th>Block Name</th><th>Description</th><th>Author</th><th>Date</th></tr>
+        <tr>
+            <td>1</td>
+            <td>bdata</td>
+            <td>This function generates a random sequence of bits, which can be used to exercise a data
+transmission system. The pseudo-random sequence generator uses the polynomial x**10+x**3+1</td>
+            <td>R. T. Wietelmann/G.H.Brand (Berkeley)</td>
+            <td> Oct 7, 1982, Modified by Messerschmitt March 11, 1985</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>qpsk.s</td>
+            <td>This block inputs data(bits) and ouputs the coordinates based on qpsk.
+It produces an in phase and quadrature component.
+Not very efficient but illustrative.</td>
+            <td>Ardalan</td>
+            <td>Dec 14, 2000</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>stc.s</td>
+            <td>This block inputs data  and stretches it with zeros.
+The code output oversampling rate (samples per baud interval) is
+selected by the  parameter `smplbd'</td>
+            <td>Ali Sadri</td>
+            <td>June 4, 1990</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>sqrtnyq.s</td>
+            <td>This block performs Nyquist pulse shaping for a baseband transmitter.
+See Carlson, Communications Systems, page 381, equation 17b.
+The Nyquist criterion in the frequency domain is to have an amplitude
+rolloff which is symmetric about Fb/2 (half baud frequency).
+First, a frequency-domain amplitude response is created using a raised
+cosine shape.  This computation is affected by:
+Param:	1 - (int) smplbd: samples per baud interval. default=>8
+Param:	2 - (int) expfft: 2^expfft = fft length to use.  default=>8
+Param: 3 - (float) beta: filter rolloff factor, 0<beta<=.5  default=>.5
+The amplitude response is changed to impulse response via inverse fft.
+The impulse response is made causal by right shifting (filter delay),
+and is time limited to "IMPBAUD" baud intervals (set by definition).
+(This filter will cause a delay of IMPBAUD/2 baud intervals.)
+Finally, the impulse response is transformed back to a frequency
+response, which is used in subsequent linear convolution with the input,
+which is implemented by the Fast Fourier Transform overlap-save method.
+The fft length must be greater than the impulse response length;
+for efficiency, a factor of two or more in length is desirable.
+This implies that 2^expfft > smplbd * IMPBAUD.
+Nyquist shaping has no meaning if smplbd = 1; this implies that
+each sample would go through the filter unchanged!</td>
+            <td>Jim Faber</td>
+            <td>Jan. 14, 1987</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>sine.s</td>
+            <td>This block generates a sinusoid ( cosine for zero phase, sine for quadrature if second output buffer connected) . The The first parameter, which
+defaults to NOSAMPLES (128), tells how many total samples to send out. The second
+parameter is the magnitude which defaults to one. The third parameter is the sampling
+frequency. The 4th parameter is the frequency. The fifth parameter is the phase is degrees. </td>
+            <td>Ardalan</td>
+            <td>Nov. 1987</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>setsnr.s</td>
+            <td>Set the Signal to Noise Raio (SNR) in dB  by calculating power over window of  input samples and adding noise.
+ </td>
+            <td>Ardalan</td>
+            <td>February 2003</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>mixer.s</td>
+            <td>This block takes two inputs and produces their product.
+</td>
+            <td>John T. Stonick</td>
+            <td>1990</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>demux.s</td>
+            <td>This block provides periodic demultiplexing of an input data stream.
+It is appropriate for sub-sampling (integer decimation) or creating
+data streams for fractionally-spaced equalization (FSE).
+For every N (integer) input samples, 1 sample is sent to each output.
+The number of outputs and their phases are selectable.</td>
+            <td>Jim Faber</td>
+            <td>April 1988</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>scattertxt.s</td>
+            <td>This block will produce a scatter plot (stored in a text file) of the two input channels.
+channels.  Optionally, the input channel data can 'flow through' to the
+correspondingly numbered output channel.  This is useful if this block is
+to be placed in line in a simulation (e.g. probe).</td>
+            <td>Ardalan</td>
+            <td>August 16, 1987</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>dec_qpsk.s</td>
+            <td> This block inputs constellation points and decods them into a bit stream.
+It is assumed that the constellation was produced by <strong>qpsk.s</strong>.
+Not  efficient but illustrative.
+</td>
+            <td>Ardalan</td>
+            <td>Dec 14, 2000</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>ecountfap.s</td>
+            <td>This block compares two data streams for "equality".  (Since the input
+streams are floating point, a guard band is used.) An output stream
+is created, with 'zero' output for equality, and 'one' if there is a
+difference.  (Note: the output stream is optional--if no block is
+connected to the output, there is no output.)
+Param. 1 selects an initial number of samples to be ignored for
+the final error tally (used during training sequences); default zero.
+Param 2 sets an index, after which a message is printed to stderr for
+each error.  It defaults to "infinity", i.e. no error messages.
+This block prints a final message to stderr giving the error rate
+(errors/smpl), disregarding the initial ignored samples. Modified by Ardalan to make result accessable to TCL.</td>
+            <td>Jim Faber</td>
+            <td>Dec 1987</td>
+        </tr>
+    </table>
+<BR>
+<div id="digital_comm_link_instructions">
+<h1>    Instructions for Running Capsim&reg; Digital Communication Link Block Diagram Simulation.</h1>
+  <p style="margin-left:1em;"><strong>1-</strong> Obtain the Capsim&reg; Text Mode Kernel (CapsimTMK) for Linux  from:
+<p style="margin-left:1em;"><a href="https://github.com/silicondsp/capsim-tmk">GitHub Capsim Text Mode  Repository </a>
+<p style="margin-left:1em;">CapsimTMK is  distributed with hundreds of  blocks.
+<p style="margin-left:1em;"> This Repository contains the Topologies for QPSK Digital Communication Link  block diagram modeling. All blocks used are part of the Capsim&reg; TMK Repository.
+<p style="margin-left:1em;">Note: Follow the <b>Getting Started Guidelines</b> in the <a href="https://github.com/silicondsp/capsim-tmk">CapsimTMK Repository</a>.
+<p style="margin-left:1em;"><strong>2- </strong>Once CapsimTMK is installed just run 'make' in this repository's  main directory.
+<p style="margin-left:1em;"><strong>3- </strong>Then change to the directory 'Topologies' and run:
+<p style="margin-left:1em;"><strong>../capsim sys-qpsk.t</strong>
+<p style="margin-left:1em;">The block diagram for the <strong>sys-qpsk.t</strong> topology is shown <a href="#dig_comm_e2e_qpsk">here</a>.
+ <p style="margin-left:1em;">The following is the console report:
+<pre>
+../capsim sys-qpsk.t 
+Welcome to Capsim Text Mode Kernel (CapsimTMK)
+(c)1989-2017 Silicon DSP Corporation
+This is free software; see the source for copying conditions. There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+http://www.silicondsp.com
+Version 6.2
+Running topology sys-qpsk.t
+model name: sys-qpsk
+plot created file: eyeDiagram.tim 
+scatter created file: Scatter.sct 
+ecount: hits/samples = 12/8000  (ignore 100)  BER = 0/7900 = 0
+plot created file: plot2.tim 
+</pre> <BR>
+<p style="margin-left:1em;">There are multiple results you can plot.
+<p style="margin-left:1em;">Use the plotting tool provided with the CapsimTMK repository:
+<p style="margin-left:1em;"><b>java -jar $CAPSIM/TOOLS/IIPPlot.jar -scatter  Scatter.sct</b>
+<p style="margin-left:1em;"><b>java -jar $CAPSIM/TOOLS/IIPPlot.jar  eyeDiagram.tim</b>
+<p style="margin-left:1em;"> With Linux you can send the plot application to run in the background to put plots side by side when you want to display multiple plots. Then bring them to the forgound and use Control C to exit.
+<p style="margin-left:1em;"> For the eye diagram refer to the screen shot below.
+<img src="images/eye_diagram.png" width="808" height="456" alt="eye" title="" />
+<p style="margin-left:1em;"> To run the TCL scripts, for example <strong>bersnr.tcl</strong>, use this command:
+<p style="margin-left:1em;"> <b>../capsim -t bersnr.tcl</b>
+<p style="margin-left:1em;"> The results are shown below. Note that a table of BER versus SNR is created.
+<pre> Current Block:  setsnr0  (star: setsnr)
+Found Parameter at index=0 executing:chp 0 -2
+ecount: hits/samples = 540/10000  (ignore 100)  BER = 517/9900 = 0.05222
+-2 : 10000 BER=0.0522222220898
+ Current Block:  setsnr0  (star: setsnr)
+Found Parameter at index=0 executing:chp 0 0
+ecount: hits/samples = 220/10000  (ignore 100)  BER = 203/9900 = 0.02051
+0 : 10000 BER=0.0205050501972
+ Current Block:  setsnr0  (star: setsnr)
+Found Parameter at index=0 executing:chp 0 2
+ecount: hits/samples = 611/100000  (ignore 100)  BER = 595/99900 = 0.005956
+2 : 100000 BER=0.00595595594496
+ Current Block:  setsnr0  (star: setsnr)
+Found Parameter at index=0 executing:chp 0 5
+ecount: hits/samples = 29/100000  (ignore 100)  BER = 14/99900 = 0.0001401
+5 : 100000 BER=0.000140140138683
+ Current Block:  setsnr0  (star: setsnr)
+Found Parameter at index=0 executing:chp 0 7
+ecount: symbol error @1159369
+ecount: symbol error @1192307
+ecount: symbol error @1686990
+ecount: symbol error @1810859
+ecount: symbol error @2873993
+ecount: symbol error @3899273
+ecount: symbol error @4108855
+ecount: symbol error @4110293
+ecount: symbol error @4185661
+ecount: symbol error @4214178
+ecount: symbol error @4364059
+ecount: symbol error @4429261
+ecount: symbol error @4688479
+ecount: symbol error @5066085
+ecount: symbol error @5467199
+ecount: symbol error @5806823
+ecount: symbol error @6407347
+ecount: symbol error @6961648
+ecount: symbol error @7278569
+ecount: symbol error @7369518
+ecount: symbol error @8336623
+ecount: symbol error @8416624
+ecount: symbol error @8524802
+ecount: symbol error @8574366
+ecount: symbol error @8613330
+ecount: symbol error @8896281
+ecount: symbol error @9600581
+ecount: symbol error @9792191
+ecount: symbol error @9900089
+ecount: symbol error @9930595
+ecount: hits/samples = 48/10000000  (ignore 100)  BER = 32/9999900 = 3.2e-06
+7 : 10000000 BER=3.20003209708e-06
+6
+SNR	BER
+	
+-2	0.0522222220898
+0	0.0205050501972
+2	0.00595595594496
+5	0.000140140138683
+7	3.20003209708e-06
+</pre>  
+<p style="margin-left:1em;"> The file <strong>ber.dat</strong> is created. To plot the results use the command:
+<p style="margin-left:1em;"> <b>java -jar $CAPSIM/TOOLS/IIPPlot.jar  ber.dat</b>
+<BR>
+<img src="images/qpsk_ber_snr_log.png" width="476" height="693" alt="ber versus snr" title="" />
+<p style="margin-left:1em;"> In the plot the Y axis was changed to Logarithmic. Also the Marker+Line stye was selected. Also the theme was changed.
+<BR>
+<BR>
+<div id="linux_tux">
+<strong>Linux Tux</strong> By <a rel="nofollow" class="external text" href="http://www.isc.tamu.edu/~lewing/">Larry Ewing</a>, <a rel="nofollow" class="external text" href="http://www.home.unix-ag.org/simon/">Simon Budig</a>, <a rel="nofollow" class="external text" href="https://github.com/garrett/Tux">Garrett LeSage</a> - <a rel="nofollow" class="external free" href="https://isc.tamu.edu/~lewing/linux/">https://isc.tamu.edu/~lewing/linux/</a>, <a rel="nofollow" class="external free" href="http://www.home.unix-ag.org/simon/penguin/">http://www.home.unix-ag.org/simon/penguin/</a>, <a rel="nofollow" class="external text" href="https://github.com/garrett/Tux">garrett/Tux</a> on GitHub, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en" title="Creative Commons Zero, Public Domain Dedication">CC0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=753970">Link</a>
+<BR>
+<BR>
+<a href="https://www.ccdsp.org/"><img src="sd-logo-tm_sm.png" width="104" height="109" alt="sdsp logo" title="" /></a>
+<p><strong>Silicon DSP Corporation</strong></p>
+<p>2002-2025</p>
+<p>https://www.ccdsp.org</p>
