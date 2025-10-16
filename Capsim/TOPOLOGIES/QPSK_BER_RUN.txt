@@ -1,0 +1,29 @@
+Noise:
+param float 0.15
+param int 333
+block addnoise0 addnoise
+
+Arguments:
+arg 0 float 0.5 "Rolloff Factor"
+arg 1 float 1.5e+06 "tx center frequency"
+arg 2 float 1.5e+06 "rx center frequency"
+arg 3 int 10000000 "number of bits"
+arg 4 float 0 "rx phase"
+arg 5 int 4 "Timing Sample"
+
+
+
+
+
+../capsim sys-ete-ber.t
+Welcome to Capsim Text Mode Kernel (CapsimTMK)
+(c)1989-2017 Silicon DSP Corporation
+This is free software; see the source for copying conditions. There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+http://www.silicondsp.com
+Version 6.2
+Running topology sys-ete-ber.t
+model name: sys-ete-ber
+ecount: symbol error @5299365
+ecount: hits/samples = 13/10000000  (ignore 100)  BER = 1/9999900 = 1e-07
+
