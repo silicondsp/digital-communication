@@ -28,7 +28,7 @@
 <BR>
 <p style="margin-left:1em;">Icons <img src="images/noun-links-821764.png" width="30" height="30" alt="link github" title="" />,
 <img src="images/noun-tools-4827171.png" width="40" height="40" alt="link building" title="" /> and 
-<img src="images/noun-github-4289652.png" width="50" height="50" alt="link github" title="" /> 
+<img src="images/github-mark.png" width="46" height="45" alt="github"/> 
 Credit the <a href="https://thenounproject.com/"> Noun Project</a>.
 <BR>
 <div style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table width="100%" border="1" cellpadding="2" cellspacing="2" style="background-color: #ffffff;">
@@ -98,7 +98,7 @@ Credit the <a href="https://thenounproject.com/"> Noun Project</a>.
 </td>
 <td width="293" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">Capsim&reg; Text Mode Kernel (TMK) Installation </span></p>
 </td>
-<td width="73" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;"><a href="https://github.com/silicondsp/capsim-tmk"><img src="images/noun-github-4289652.png" width="50" height="50" alt="link github" title="" /></a></span></p>
+<td width="73" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;"><a href="https://github.com/silicondsp/capsim-tmk"><img src="images/github-mark.png" width="46" height="45" alt="github"/></a></span></p>
 </td>
 <td width="134" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">GitHub Repository</span></p>
 </td>
@@ -108,7 +108,7 @@ Credit the <a href="https://thenounproject.com/"> Noun Project</a>.
 </td>
 <td width="293" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">GitHub Repository Capsim&reg; Digital Communication Link</span></p>
 </td>
-<td width="73" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;"><a href="https://github.com/silicondsp/digital-communication"><img src="images/noun-github-4289652.png" width="50" height="50" alt="link github" title="" /></a></span></p>
+<td width="73" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;"><a href="https://github.com/silicondsp/digital-communication"><img src="images/github-mark.png" width="46" height="45" alt="github"/></a></span></p>
 </td>
 <td width="134" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">GitHub Repository</span></p>
 </td>
@@ -356,7 +356,7 @@ This block prints a final message to stderr giving the error rate
 <div id="digital_comm_link_instructions">
 <h1>    Instructions for Running Capsim&reg; Digital Communication Link Block Diagram Simulation.</h1>
   <p style="margin-left:1em;"><strong>1-</strong> Obtain the Capsim&reg; Text Mode Kernel (CapsimTMK) for Linux  from:
-<p style="margin-left:1em;"><a href="https://github.com/silicondsp/capsim-tmk">GitHub Capsim Text Mode  Repository </a>
+<p style="margin-left:1em;"><a href="https://github.com/silicondsp/capsim-tmk">GitHub Capsim Text Mode  Repository <img src="images/github-mark.png" width="46" height="45" alt="github"/> </a>
 <p style="margin-left:1em;">CapsimTMK is  distributed with hundreds of  blocks.
 <p style="margin-left:1em;"> This Repository contains the Topologies for QPSK Digital Communication Link  block diagram modeling. All blocks used are part of the Capsim&reg; TMK Repository.
 <p style="margin-left:1em;">Note: Follow the <b>Getting Started Guidelines</b> in the <a href="https://github.com/silicondsp/capsim-tmk">CapsimTMK Repository</a>.
