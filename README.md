@@ -150,7 +150,7 @@ TCL scripts are provided for running multiple simulations at different SNR and t
 The communication link uses Nyquest Pulse Shaping where the rolloff factor can be specified. The <strong>sqrtnyq.s  </strong> block is used at the receiver and transmitter
 with the <strong>sqrtnyq.s</strong> block at the receiver being the matched filter.  
 <p style="margin-left:1em;">For some of the topologies, files are genererated to view the received eye diagram and constellation.
-Use the <strong>IIPPlot.jar</strong> Java program to plot the results. 
+Use the <a href="https://www.ccdsp.org/IIPPlot/index.html" ><strong>IIPPlot</strong></a> Java program to plot the results. 
 Three  convenient scripts are provided: xeyeplot,  xplot and  xscatter. For example, run the command:
 <p style="margin-left:1em;"><strong>source xscatter Scatter.sct</strong> 
 <p style="margin-left:1em;">to create a plot of the received constellation.
@@ -158,7 +158,7 @@ Three  convenient scripts are provided: xeyeplot,  xplot and  xscatter. For exam
 The topology <strong>sys-ete-ber.t</strong> runs for 10,000,000 bits and reports the Bit Error Rate (BER).
 <p style="margin-left:1em;">The TCL Script <strong>bersnr.tcl</strong>
 uses the topology: <strong>sys-ete-snr.t</strong> to run multiple simulations with different SNR values and tabulates BER versus SNR (dB).
-<p style="margin-left:1em;">Note this repository supports the Text Mode Kernel version of Capsim&reg;. 
+<p style="margin-left:1em;"><strong>Note:</strong> this repository supports the Text Mode Kernel version of Capsim&reg;. 
 The graphical block diagram is from the soon to be released Capsim&reg; Version 7 which uses  Qt&reg; for interactive graphical interface. 
 However, the topology in this Repository are the same. You can use the block names in the screen shot and then use the
 Capsim&reg; command  "to blockname" to go the the block, change parameters and run the simulation.
