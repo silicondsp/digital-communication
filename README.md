@@ -26,21 +26,20 @@
 <!-- width="250" height="297" -->
 <BR>
 <BR>
-<p style="margin-left:1em;">Icons <img src="images/noun-links-821764.png" width="30" height="30" alt="link github" title="" />,
-<img src="images/noun-tools-4827171.png" width="40" height="40" alt="link building" title="" /> and 
-<img src="images/github-mark.png" width="46" height="45" alt="github"/> 
+<p style="margin-left:1em;">Icons <img src="images/noun-links-821764.png" width="30" height="30" alt="link github" title="" /> and 
+<img src="images/noun-tools-4827171.png" width="40" height="40" alt="link building" title="" />  
 Credit the <a href="https://thenounproject.com/"> Noun Project</a>.
 <BR>
 <div style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table width="100%" border="1" cellpadding="2" cellspacing="2" style="background-color: #ffffff;">
 <table>
 <tr valign="top">
-<td width="40" height="15" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: bold; color: #000000; background-color: transparent; text-decoration: none;">Item</span></p>
+<td width="40" height="15" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: bold; color: #000000; background-color: transparent; text-decoration: none;"><strong>Item</strong></span></p>
 </td>
-<td width="293" height="15" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: bold; color: #000000; background-color: transparent; text-decoration: none;">Description</span><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;"> </span></p>
+<td width="293" height="15" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: bold; color: #000000; background-color: transparent; text-decoration: none;"><strong>Description</strong> </span><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;"> </span></p>
 </td>
-<td width="73" height="15" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: bold; color: #000000; background-color: transparent; text-decoration: none;">Link</span></p>
+<td width="73" height="15" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: bold; color: #000000; background-color: transparent; text-decoration: none;"><strong>Link</strong></span></p>
 </td>
-<td width="134" height="15" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: bold; color: #000000; background-color: transparent; text-decoration: none;">Type</span></p>
+<td width="134" height="15" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: bold; color: #000000; background-color: transparent; text-decoration: none;"><strong>Type</strong></span></p>
 </td>
 </tr>
 <tr valign="top">
@@ -66,7 +65,7 @@ Credit the <a href="https://thenounproject.com/"> Noun Project</a>.
 <tr valign="top">
 <td width="40" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">3</span></p>
 </td>
-<td width="293" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">List of Topologiies Included in Repository</span></p>
+<td width="293" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;">List of Topologies Included in Repository</span></p>
 </td>
 <td width="73" style="border-width : 0px;"><p style=" text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><span style=" font-size: 10pt; font-family: 'Arial', 'Helvetica', sans-serif; font-style: normal; font-weight: normal; color: #000000; background-color: transparent; text-decoration: none;"><a href="#tops_list"><img src="images/noun-links-821764.png" width="30" height="30" alt="link" title="" /></a></span></p>
 </td>
@@ -145,7 +144,7 @@ section entitled "GNU Free Documentation License". </pre>
 <BR>
 <div id="introduction">
 <h2>Introduction</h2>
-<p style="margin-left:1em;">Block Diagram Topologies are provided for modeling and simulation a QPSK Digital Communication Links.
+<p style="margin-left:1em;">Block Diagram Topologies are provided for the modeling and simulation of a QPSK Digital Communication Links.
 All the blocks used in the topologies are included in the Capsim&reg;  Text Mode Kernel (TML) Repository.
 TCL scripts are provided for running multiple simulations at different SNR and tabulating the result showing BER versus SNR in dB.
 The communication link uses Nyquest Pulse Shaping where the rolloff factor can be specified. The <strong>sqrtnyq.s  </strong> block is used at the receiver and transmitter
